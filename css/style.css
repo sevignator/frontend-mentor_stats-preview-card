@@ -152,14 +152,14 @@ h1 {
   position: relative;
   grid-area: thumbnail;
   min-height: 240px;
-  background-image: url('/images/image-header-desktop.jpg');
+  background-image: url(/images/image-header-desktop.jpg);
   background-size: cover;
   background-position: center;
 }
 
 @media (max-width: 890px) {
   .card-thumbnail {
-    background-image: url('/images/image-header-mobile.jpg');
+    background-image: url(/images/image-header-mobile.jpg);
   }
 }
 
